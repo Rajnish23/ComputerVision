@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoiceActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200dp"
+        android:id="@+id/header"
+        android:background="@drawable/grab_background" />
+
+    <ImageView
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_200dp"
+        android:src="@drawable/computer_vision"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_20dp"
+        android:layout_below="@id/header"
+        android:id="@+id/theme"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theme"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/TextStyle"
+            android:text="Upload"
+            android:id="@+id/upload"
+            android:onClick="uploadOption"/>
+
+        <Button
+            android:text="Camera"
+            style="@style/TextStyle"
+            android:id="@+id/camera"
+            android:onClick="cameraOption"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
