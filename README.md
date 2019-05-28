@@ -1,6 +1,8 @@
 # ComputerVision
 The Idea of this project is How might we automate the process of recognizing the details of the vehicles from images, including make and model.
 
+Release APK you can get from  https://github.com/Rajnish23/ComputerVision/tree/master/app/release
+
 <h3>ScreenShots</h3>
 <div>
   <img src="https://github.com/Rajnish23/ComputerVision/blob/master/assets/Screenshot_2019-05-28-14-13-28-747_com.grabchallenge.computervision.png" width="300px" heigh="600px" />
@@ -17,5 +19,8 @@ The Idea of this project is How might we automate the process of recognizing the
   <li><h3>Audi S6 Sedan 2011</h3></li>
 </ul>  
 
-<p> I have trained data using Firebase ML kit. Total of 500 Images were there aprrox 80 for each model</p>
+<p> I have trained data using Firebase ML kit. Total of 500 Images were there aprrox 80 for each model.</p>
 
+The Result you will be getting is based on the threshold value which I have set to 0.6.
+
+# IMP Modifed code wont be working as I have not attached the google-gson file. But APK will be working fine.
