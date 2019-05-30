@@ -18,6 +18,7 @@ Release APK you can get from  https://github.com/Rajnish23/ComputerVision/tree/m
   <li><h3>Audi S5 Convertible 2012</h3></li>
   <li><h3>Audi S6 Sedan 2011</h3></li>
 </ul>  
+You can find the model in assets folder.
 
 <p> I have trained data using Firebase ML kit. Total of 500 Images were there aprrox 80 for each model.</p>
 
