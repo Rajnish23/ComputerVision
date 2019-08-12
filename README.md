@@ -24,4 +24,3 @@ You can find the model in assets folder.
 
 The Result you will be getting is based on the threshold value which I have set to 0.6.
 
-# IMP Modifed code wont be working as I have not attached the google-gson file. But APK will be working fine.
